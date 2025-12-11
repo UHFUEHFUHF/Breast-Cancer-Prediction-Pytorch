@@ -35,4 +35,4 @@ Hidden layers: a couple of layers with ReLU and last activation function is sigm
 
 Output layer: 1 neuron with sigmoid (for binary classification)
 
-I used BCEWithLogitsLoss() as the loss function and Adam as the optimizer.
+I used BCELoss() as the loss function and Adam as the optimizer.
